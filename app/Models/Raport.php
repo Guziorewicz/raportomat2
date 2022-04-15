@@ -8,13 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Raport extends Model
 {
-    public $table = "raport";
     use HasFactory;
+    /*public $table = "raport";
+    
     public function Lista()
     {
         return $this->hasMany('App\Models\Lista'); 
-    }
-/*
+    }*/
+
    protected $fillable = [
     'Report_ID' ,
     'Call_time' ,
@@ -29,5 +30,5 @@ class Raport extends Model
     'Play' 
    ];
 
-*/
+
 }

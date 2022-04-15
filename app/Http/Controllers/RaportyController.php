@@ -18,7 +18,6 @@ class RaportyController extends Controller
     {
         //$raporty = Raport::all();
         $lista = DB::table('lista')->get();
-        
 
         $raporty = DB::table('raport')->get();
        
